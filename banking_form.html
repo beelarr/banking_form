@@ -13,18 +13,25 @@
             Address: <input type="text" name="add"><br>
             Occupation: <input type="text" name="job"><br>
             Employer: <input type="text" name="boss"><br>
-            Loan Type: <input list="types">
-                        <datalist id="types">
-                            <option value="Commercial"></option>
-                            <option value="Real estate"></option>
-                            <option value="Personal"></option>
-                            <option value="Mortgage"></option>
-                        </datalist><br>
+            Loan Type: <select id="types">
+                            <option value="Commercial">Commercial</option>
+                            <option value="Real Estate">Real Estate</option>
+                            <option value="Personal">Personal</option>
+                            <option value="Mortgage">Mortgage</option>
+                        </select><br>
             Requested Loan Amount: <input type="number"> <br>
-            Loan Length: <br><input type="radio" name="length" value="5">5 years <br>
+            Loan Length:
+            <br><input type="radio" name="length" value="5">5 years <br>
             <input type="radio" name="length" value="15">15 years <br>
-            <input type="radio" name="length" value="30">30 years <br>
-
+            <input type="radio" name="length" value="30">30 years <br> <br>
+            <input type="checkbox">I have a down payment <br>
+            <input type="checkbox">Out-of-state resident <br>
+            <input type="checkbox">Married <br>
+            <input type="checkbox">Loan will be co-signed <br>
+            <textarea name="Additional Comments" id="" cols="100" rows="10">Additional Comments</textarea> <br>
+            Email: <input type="email"> <br>
+            Telephone:<input type="tel"> <br>
+            LinkedIn URL: <input type="url">
         </form>
     </div>
 </body>
